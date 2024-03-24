@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: "piazzolla", sans-serif;
+    font-weight: 540;
+    font-style: normal;
+    margin: 0px;
+}
+/* .topnav{
+    background-image: url('/img/flower/lotus.jpg');
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    position: cover;
+} */
+.navbar {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    background-color: #FFEBEB;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 3px 4px rgb(189, 173, 173);
+}
+
+.logo {
+    margin-left: 100px;
+    display: flex;
+}
+
+.navitem ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-size: 14px;
+}
+/* .home,.shop,.blog{
+    height: 5px;
+}*/
+.category{
+    
+    width: 90px;
+    
+} 
+.navitem ul li:hover{
+    color: red;
+    font-weight: bolder;
+    /* transition: 2s ease-in-out 0.1s; */
+    /* transition-duration: ;
+    transition-delay: ;
+    transition-timing-function: ; */
+}
+.navitem a{
+    text-decoration: none;
+    color: black;
+}
+
+.navicon {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    gap: 1vw;
+    display: flex;
+    margin-right: 230px;
+
+}
+
+.herosection {
+    background-color: #FFF2F1;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.herosection .textleft {
+    margin-left: -31px;
+    padding-top: 95px;
+
+
+}
+
+.herosection .textleft .tagline {
+    font-family: "livvic", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.herosection .textleft .tagline b {
+    color: red;
+}
+
+.herosection .textleft .desc {
+    padding-top: 10px;
+    height: 150px;
+    width: 30vw;
+    text-align: justify;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+}
+
+.hbtn {
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #C00100;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+}
+
+.hbtn:hover {
+    background-color: #55880B;
+    box-shadow: 2px 2px #d8d0d0;
+    height: 40.5px;
+    width: 150.5px;
+    font-size: 15px;
+    
+}
+.herosection .imgrt{
+    height: 410px;
+    width: 450px;
+    margin-right: -30px;
+
+}
+.herosection .imgrt img {
+    padding-top: 28px;
+    margin-right: -30px;
+    height: 400px;
+    width: 440px;
+}
+.herosection .imgrt img:hover{
+    height: 410px;
+    width: 450px;
+}
+.categories {
+    padding-top: 22px;
+    width: 100%;
+    height: 252px;
+}
+
+.categories h1 {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.imagecat {
+    justify-content: center;
+    padding-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 325;
+    align-items: center;
+    gap: 39px;
+}
+/* .imagecat .flower{
+    height: 325px;
+    width: 259px;
+}
+.imagecat .flower .flower1:hover{
+    height: 323px;
+    width: 257px;
+} */
+.imagecat .flower1 img {
+    height: 321px;
+    width: 255px;
+}
+
+.imagecat .flower1 .text {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.bstseller h1 {
+    text-align: center;
+    padding-top: 259px;
+    padding-bottom: 40px;
+}
+.bstseller .img i {
+margin-top: 50px;
+position:relative;
+}
+.row1 {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    height: 373px;
+    width: 100%;
+}
+.img1{
+    width: 310px;
+    height: 250px;
+}
+/* .img1:hover{
+    width: 311px;
+    height: 251px;
+    box-shadow:2px 2px 3px grey;
+} */
+.img1,
+.img2,
+.img3,
+.img img {
+    width: 310px;
+    height: 250px;
+}
+
+.img1 .img {
+    background-image: url('/img/flower/row1-1st.jpg');
+    width: 310px;
+    height: 250px;
+}
+
+/*
+.img2 img{
+    width: 310px;
+    height: 250px;
+}
+.img3 img{
+    width: 310px;
+    height: 250px;
+} */
+.img1 ,
+.img2,
+.img3,
+.itext {
+    text-align: center;
+    font-size: 14px;
+}
+
+.img1 ,
+.img2 ,
+.img3,
+.itext,
+.price {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.itext .cart {
+    height: 25px;
+    width: 90px;
+    padding-top: 2px;
+    background-color: #C00100;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+    margin-left: 8.5vw;
+    
+}
+
+.row2 {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    height: 373px;
+    width: 100%;
+   margin-top: 95px;
+}
+
+.love {
+    height: 535px;
+    width: 100%;
+    background-color: #FFF2F1;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.love .leftpart img {
+    margin-left: -50px;
+    margin-top: 70px;
+    width: 560px;
+    height: 407px;
+    /* padding: 89px; */
+}
+
+.rightpart {
+    margin-top:100px;
+}
+
+.rightpart,
+.rhead,
+.love1,
+.love2 {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-size: 32px;
+}
+
+.love1 {
+    display: flex;
+}
+
+.love1 b {
+    color: #FF3E2F;
+}
+
+.love1 img {
+    height: 60px;
+    width: 60px;
+    margin-top: -10px;
+}
+
+.secondp {
+    font-family: "piazzolla", sans-serif;
+    font-size: 16px;
+    font-weight: noarml;
+    width: 30vw;
+    padding-top: 15px;
+}
+
+.bullet {
+    margin-left: -14px;
+    width: 100%;
+    font-family: "piazzolla", sans-serif;
+    font-size: 16px;
+}
+
+.first,.second,.third {
+    display: flex;
+    width: 400px;
+}
+.first img,
+.second img,
+.third img {
+    height: 60px;
+    width: 60px;
+}
+.text{
+    margin-top: 15px;
+}
